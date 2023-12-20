@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(https://cdn.glitch.com/5424c35d-07f1-4233-8159-05e3f169d0ea%2Fbackground-lettuce.jpg?v=1597161236571);
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: futura, sans-serif;
+}
+
+header,
+section,
+footer {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 10% 5%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2,
+h3 {
+  font-size: 40px;
+}
+
+h2 {
+  color: #104900;
+}
+
+p {
+  font-size: 20px;
+  font-family: verdana, sans-serif;
+}
+
+/* HEADER STYLES
+-----------------------------------------*/
+
+header {
+  background: rgba(198, 206, 167);
+  text-align: center;
+}
+
+/* ABOUT STYLES
+-----------------------------------------*/
+
+section.about {
+  background: rgba(16, 73, 0, 0.8);
+  color: white;
+}
+
+img.guinea-pigs {
+  float: right;
+  border-radius: 50%;
+  width: 40%;
+  border: 2px solid #73702e;
+  margin: 5% 10%;
+}
+
+/* MENU STYLES
+-----------------------------------------*/
+section.menu {
+  background: rgba(246, 240, 205);
+  text-align: center;
+}
+
+img.menu-veg {
+  width: 20%;
+  height: 7%;
+  border-radius: 15px;
+  border: 2px solid #73702e;
+}
+
+/* FOOTER/CONTACT STYLES
+-----------------------------------------*/
+
+footer {
+  background: rgba(168, 186, 19, 0.8);
+  text-align: center;
+  color: white;
+}
